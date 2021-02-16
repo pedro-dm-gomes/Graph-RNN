@@ -1,4 +1,5 @@
 import os
+#os.environ['OPENBLAS_NUM_THREADS'] = '3'
 import sys
 import io
 from datetime import datetime
@@ -10,7 +11,7 @@ import tensorflow as tf
 import matplotlib.pyplot as plt
 from mpl_toolkits.mplot3d import axes3d, Axes3D
 from PIL import Image
-import models.GraphRNN_color_LongTerm as models
+import models.GraphRNN_color_ShortTerm as models
 from datasets.bodys_color_Full_Random import Bodys as Dataset_Full_Random
 
 
@@ -34,7 +35,7 @@ parser.add_argument('--alpha', type=float, default=1.0, help='Weigh on CD loss [
 parser.add_argument('--beta', type=float, default=1.0, help='Weigh on EMD loss [default: 1.0]')
 parser.add_argument('--alpha_color', type=float, default=0.0, help='Weigh on CD loss [default: 1.0]')
 parser.add_argument('--beta_color', type=float, default=0.0, help='Weigh on EMD loss [default: 1.0]')
-parser.add_argument('--log-dir', default='outputs/GraphRNN_LongTerm_Color', help='Log dir [default: outputs]')
+parser.add_argument('--log-dir', default='outputs/GraphRNN_ShortTerm_Color', help='Log dir [default: outputs]')
 
 args = parser.parse_args()
 np.random.seed(999)
@@ -87,7 +88,7 @@ checkpoint_dir = os.path.join(args.log_dir, 'checkpoints')
 if not os.path.exists(checkpoint_dir):
     os.makedirs(checkpoint_dir)
 checkpoint_path = os.path.join(checkpoint_dir, 'ckpt')
-checkpoint_path_restore = os.path.join(checkpoint_dir, 'ckpt-76400')
+checkpoint_path_restore = os.path.join(checkpoint_dir, 'ckpt-74250')
 
 print("\n\checkpoint_dir",checkpoint_dir)
 checkpoint_path_automatic = tf.train.latest_checkpoint(checkpoint_dir)
