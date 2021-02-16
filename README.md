@@ -6,7 +6,6 @@ We propose a new neural network with Graph-RNN cells, for point cloud sequence p
 
 
 ## Overview
-`GraphRNN` is the author's re-implementation of SPATIO-TEMPORAL GRAPH-RNN FOR POINT CLOUD PREDICTION.
 <img src="https://github.com/pedro-dm-gomes/Graph-RNN/blob/main/full_scheme.png" scale="0.2">
 
 ## Citation
