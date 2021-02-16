@@ -7,7 +7,7 @@ We propose a new neural network with Graph-RNN cells.
 ## Overview
 `GraphRNN` is the author's re-implementation of SPATIO-TEMPORAL GRAPH-RNN FOR POINT CLOUD PREDICTION.
 
-![](https://github.com/pedro-dm-gomes/Graph-RNN/blob/main/full_scheme.png)
+![](https://github.com/pedro-dm-gomes/Graph-RNN/blob/main/full_scheme.png |  width=100)
 
 ## Citation
 Please cite this paper if you want to use it in your work,
@@ -25,4 +25,6 @@ The partsof this codebase is borrowed from Related Repos:
 ### Related Repos
 1. PointRNN TensorFlow implementation: https://github.com/hehefan/PointRNN
 2. PointNet++ TensorFlow implementation: https://github.com/charlesq34/pointnet2
-3.Dynamic Graph CNN for Learning on Point Clouds https://github.com/WangYueFt/dgcnn
+3. Dynamic Graph CNN for Learning on Point Clouds https://github.com/WangYueFt/dgcnn
+
+
