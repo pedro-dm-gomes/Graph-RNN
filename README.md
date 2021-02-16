@@ -22,8 +22,7 @@ Please cite this paper if you want to use it in your work,
 
 Install <a href="https://www.tensorflow.org/get_started/os_setup" target="_blank">TensorFlow</a>. The code has been tested with Python 3.6, TensorFlow 1.12.0, CUDA 9.0 and cuDNN 7.21
 
-### Compiling
-You will need to select the correct CUDA version and directions in your MAKEFILE
+Compile the code. You will need to select the correct CUDA version and Tensorflow directions in the Makefile
 
 ### Usage
 To train a model to long-term prediction using the GraphRNN model using Human Bodies Dataset :
