@@ -7,17 +7,16 @@ We propose a new neural network with Graph-RNN cells.
 ## Overview
 `GraphRNN` is the author's re-implementation of SPATIO-TEMPORAL GRAPH-RNN FOR POINT CLOUD PREDICTION.
 
-![](https://github.com/pedro-dm-gomes/Graph-RNN/blob/main/full_scheme.png |  width=100)
-
 ## Citation
 Please cite this paper if you want to use it in your work,
 
-	@article{dgcnn,
-	  title={Dynamic Graph CNN for Learning on Point Clouds},
-	  author={Wang, Yue and Sun, Yongbin and Liu, Ziwei and Sarma, Sanjay E. and Bronstein, Michael M. and Solomon, Justin M.},
-	  journal={ACM Transactions on Graphics (TOG)},
-	  year={2019}
-	}
+	@article{gomes2021spatiotemporal,
+	  title={Spatio-temporal Graph-RNN for Point Cloud Prediction},
+	  author={Pedro Gomes and Silvia Rossi and Laura Toni},
+	  year={2021},
+	  eprint={2102.07482},
+	  archivePrefix={arXiv},
+	  }
 
 ## Acknowledgement
 The partsof this codebase is borrowed from Related Repos:
