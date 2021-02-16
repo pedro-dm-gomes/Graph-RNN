@@ -18,9 +18,25 @@ Please cite this paper if you want to use it in your work,
 	  eprint={2102.07482},
 	  archivePrefix={arXiv},
 	  }
+### Installation
+
+Install <a href="https://www.tensorflow.org/get_started/os_setup" target="_blank">TensorFlow</a>. The code has been tested with Python 3.6, TensorFlow 1.12.0, CUDA 9.0 and cuDNN 7.21
+
+### Compiling
+You will need to select the correct CUDA version and directions in your MAKEFILE
+
+### Usage
+To train a model to long-term prediction using the GraphRNN model using Human Bodies Dataset :
+
+    python train-GraphRNN_LongTerm_without_color.py
+
+to evaluate the model
+	
+    python eval-Bodies_GraphRNN_Long_Term_without_color
+    
 
 ## Acknowledgement
-The partsof this codebase is borrowed from Related Repos:
+The parts of this codebase is borrowed from Related Repos:
 
 ### Related Repos
 1. PointRNN TensorFlow implementation: https://github.com/hehefan/PointRNN
