@@ -19,9 +19,11 @@ data
   (...)
 ```
 
-3. Run the following python code to convert the FBX animation to-> OBJ -> PLY -> NPY
+3. To convert the Fbx file to point cloud run the following python:
 
-    python create_dataset_color_full_body.py
+    `python create_dataset_color_full_body.py`
+
+The python sctrip will  convert .FBX -> OBJ -> PLY. The final step the PLY are converted to NPY. For each point cloud there will a npy file for the points and npy file for the color.
 
 4. Downsample the Sequences using Farthest point sampling algoritm from 800,000 points to 4,000 points
 
