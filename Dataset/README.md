@@ -5,7 +5,19 @@ In case of any doubt you will find a diferent code to achive the same data creat
 
 1. Download the FBX files from Mixamo.
 
-2. Organize the files with the following tree structure
+2. We recomentd to organize the FBXs files with the following tree structure
+```
+data
+|-FBX
+  |-Astra
+    |- Arial_Evade.fbx
+    |- Butterfly_Twirl.fbx
+    |- (...)
+  |-Brian
+    |- Chicken_Dance.fbx
+    |- Hit_to_Body.fbx
+  (...)
+```
 
 3. Run the following python code to convert the FBX animation to-> OBJ -> PLY -> NPY
 
