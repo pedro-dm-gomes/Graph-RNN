@@ -58,8 +58,9 @@ data
   ```
 
 
-4. Downsample the Sequences using Farthest point sampling algoritm from 800,000 points to 4,000 points
+4. Downsample the point clouds using farthest point sampling algoritm from 800,000 points to 4,000 points. 
+You will need to compile the code in GraphRNN folder for this step.
 
-    python create_dataset_color_full_body.py
+    `python /GraphRNN/Downsample_all_sequences.py`
 
 5. Set the correct path in GraphRNN files.
