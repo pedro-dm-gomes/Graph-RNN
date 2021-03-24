@@ -7,7 +7,7 @@ In case of any doubt you will find a diferent code to achive the similar data cr
 
 2. We recomentd to organize the FBXs files with the following tree structure
 ```
-data
+Datasets
 |-FBX
   |-Astra
     |- Arial_Evade.fbx
@@ -28,7 +28,7 @@ The python sctrip will  convert .FBX -> OBJ -> PLY. The final step the PLY are c
 
 After the script you should have:
 ```
-data
+Datasets
 |-FBX
   |-Astra
     |- Arial_Evade.fbx
