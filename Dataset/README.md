@@ -7,7 +7,7 @@ In case of any doubt you will find a diferent code to achive the same data creat
 
 2. Organize the files with the following tree structure
 
-3.Run the following python code to convert the FBX animation to-> OBJ -> PLY -> NPY
+3. Run the following python code to convert the FBX animation to-> OBJ -> PLY -> NPY
 
     python create_dataset_color_full_body.py
 
