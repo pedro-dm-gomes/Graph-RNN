@@ -64,3 +64,6 @@ You will need to compile the code in GraphRNN folder for this step.
     `python /GraphRNN/Downsample_all_sequences.py`
 
 5. Set the correct path in GraphRNN files.
+
+For example in `train-GraphRNN_ShortTerm_color.py` you will need to change the following line  for you personal directory with the npy files.
+parser.add_argument('--data-dir', default='/home/uceepdg/profile.V6/Desktop/Datasets/NPYs_Bodys')
