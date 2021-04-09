@@ -20,7 +20,7 @@ Datasets
 ```
 
 ### 3. To convert the Fbx file to point cloud run the following python:
-You will need to edit the script with the coorect paths to the directories in your computer.
+You will need to edit the script with to correct paths to the directories in your computer.
 
     `python create_dataset_color_full_body.py`
 
