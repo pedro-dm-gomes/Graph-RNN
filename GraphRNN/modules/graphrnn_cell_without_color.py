@@ -202,7 +202,7 @@ class GraphRNNCell_2N_1MAX(object):
         
         # 5. Fully-connected layer (the only parameters)
         with tf.variable_scope('graph-rnn') as sc:
-        	S1 = tf.layers.conv2d(inputs=correlation, filters=out_channels, kernel_size=1, strides=1, padding='valid', data_format='channels_last', activation=None, name='fc')
+        	S1 = tf.layers.conv2d(inputs=correlation, filters=out_channels, kernel_size=1, strides=1, padding='valid', data_format='channels_last', activation=tf.nn.relu, name='fc')
         
         #S1_before_Max = S1
         
@@ -828,7 +828,7 @@ def point_feat(P1,
     
     # 5. Fully-connected layer (the only parameters)
     with tf.variable_scope(scope) as sc:
-        F1 = tf.layers.conv2d(inputs=correlation, filters=out_channels, kernel_size=1, strides=1, padding='valid', data_format='channels_last', activation=None, name='fc')
+        F1 = tf.layers.conv2d(inputs=correlation, filters=out_channels, kernel_size=1, strides=1, padding='valid', data_format='channels_last', activation=tf.nn.relu, name='fc')
 
     # 6. Pooling
     if pooling=='max':
