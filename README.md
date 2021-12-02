@@ -1,4 +1,6 @@
 # Graph-RNN
+-- the is curretly being updated /  will be available next week ---
+
 We propose a new neural network with Graph-RNN cells, for point cloud sequence prediction
 
 
