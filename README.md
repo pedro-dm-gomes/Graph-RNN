@@ -1,5 +1,5 @@
 # Graph-RNN
--- THE CODE IS CURRENTLY BEING UPDATED /  will be available next week ---
+-- THE CODE IS CURRENTLY BEING UPDATED /  will be available next week (6-12-2021) ---
 
 We propose a new neural network with Graph-RNN cells, for point cloud sequence prediction
 
