@@ -28,9 +28,9 @@ Compile the code. You will need to select the correct CUDA version and Tensorflo
 The Makefiles to compile the code are in `modules/tf_ops`
 
 ### Usage
-To train a model to long-term prediction using the GraphRNN model using Human Bodies Dataset :
+To train a model to long-term prediction using the GraphRNN model on MNIST DATASET :
 
-    python train-GraphRNN_LongTerm_without_color.py
+    python train-mmnist-GraphRNN.py
 
 to evaluate the model
 	
