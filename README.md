@@ -55,7 +55,7 @@ To create the Human Bodies dataset follow the instruction in the Dataset folder.
 
 ## Visual Results
 
-![with = 0.5/pagewith](gif_results.gif)
+![with = 0.25/pagewith](gif_results_fast.gif)
 
 ## Acknowledgement
 The parts of this codebase is borrowed from Related Repos:
