@@ -27,14 +27,18 @@ The Makefiles to compile the code are in `modules/tf_ops`
 
 ### Usage
 #### MNIST
-To train a model to long-term prediction using the GraphRNN model o
+To train a model to long-term prediction using the GraphRNN
 
     python train-mmnist-GraphRNN.py
 
 #### Human Bodies 
-to evaluate the model
-	
-    python eval-Bodies_GraphRNN_Long_Term_without_color
+to train the model
+
+    python eval-train-bodies-GraphRNN.py
+
+to train the model with color point cloud
+
+    python train-bodies-GraphRNN_color.py
 
 ### Datasets
 The models were evaluated with the following datasets:
