@@ -31,14 +31,21 @@ To train a model to long-term prediction using the GraphRNN
 
     python train-mmnist-GraphRNN.py
 
+To evaluate the model
+
+    python eval-mmnist.py
+
 #### Human Bodies 
-to train the model
+to train the model without color or with color
 
-    python eval-train-bodies-GraphRNN.py
-
-to train the model with color point cloud
-
+    python train-bodies-GraphRNN.py
     python train-bodies-GraphRNN_color.py
+
+to evaluate
+
+    python eval-bodies.py
+    python eval-bodies_color.py
+
 
 ### Datasets
 The models were evaluated with the following datasets:
