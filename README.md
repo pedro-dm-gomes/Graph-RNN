@@ -53,6 +53,9 @@ The models were evaluated with the following datasets:
 
 To create the Human Bodies dataset follow the instruction in the Dataset folder.
 
+## Visual Results
+
+
 ## Acknowledgement
 The parts of this codebase is borrowed from Related Repos:
 
